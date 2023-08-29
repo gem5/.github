@@ -8,3 +8,6 @@ Updates to this repository will be automatically applied to the live website.
 - gem5-resources: The repository for gem5 Resources' sources.
 - gem5-resources-website: The repository containing the source for the gem5 Resources website (https://resources.gem5.org).
 Updates to this repository will be automatically applied to the live website.
+
+<!-- BEGIN YOUTUBE-CARDS -->
+<!-- END YOUTUBE-CARDS -->

@@ -1,0 +1,20 @@
+name: GitHub Readme YouTube Cards
+on:
+  schedule:
+    # Runs every 3 hours
+    - cron: "*/3 * * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Allow the job to commit to the repository
+    permissions:
+      contents: write
+    # Run the GitHub Readme YouTube Cards action
+    steps:
+      - uses: DenverCoder1/github-readme-youtube-cards@main
+        with:
+          # The gem5 youtube channel:
+          # https://www.youtube.com/channel/UCCpCGEj_835WYmbB0g96lZw
+          channel_id: UCCpCGEj_835WYmbB0g96lZw
