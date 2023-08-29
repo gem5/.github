@@ -1,4 +1,7 @@
-# The gem5 GitHub Organization
+
+<p align="center">
+<img src="https://www.gem5.org/assets/img/gem5logo/Color/noBackground/vertical/gem5ColorVert.png" width="400">
+</p>
 
 The gem5 GitHub Organization contains a number of repositories. The most important ones are:
 
