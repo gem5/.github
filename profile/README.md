@@ -1,7 +1,9 @@
 
+<picture>
 <p align="center">
 <img src="https://www.gem5.org/assets/img/gem5logo/Color/noBackground/horizontal/gem5ColorLong.gif">
 </p>
+</picture
 
 | | |
 :---:|:---:
