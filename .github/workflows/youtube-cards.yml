@@ -1,8 +1,8 @@
 name: GitHub Readme YouTube Cards
 on:
   schedule:
-    # Runs every 3 hours
-    - cron: "*/3 * * * *"
+    # Runs every day at 1 AM UTC
+    - cron: "0 1 * * *"
   workflow_dispatch:
 
 jobs:
@@ -18,3 +18,4 @@ jobs:
           # The gem5 youtube channel:
           # https://www.youtube.com/channel/UCCpCGEj_835WYmbB0g96lZw
           channel_id: UCCpCGEj_835WYmbB0g96lZw
+          readme_path: profile/README.md
